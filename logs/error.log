@@ -1,0 +1,29 @@
+[Tue Apr 29 01:51:07.583327 2025] [php:error] [pid 6954] [client 104.248.47.149:51506] script '/home/root/website/public/alive.php' not found or unable to stat
+[Tue Apr 29 03:35:16.681292 2025] [php:error] [pid 7526] [client 42.200.159.206:11377] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home/root/website/public/php/credentials.php on line 8
+[Tue Apr 29 03:38:23.575181 2025] [php:error] [pid 7128] [client 42.200.159.206:11596] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwjlibghciuwyeoebfiwquldhoui' for key 'admin.PRIMARY' in /home/root/website/public/php/createTable.php:405\nStack trace:\n#0 /home/root/website/public/php/createTable.php(405): mysqli->query()\n#1 {main}\n  thrown in /home/root/website/public/php/createTable.php on line 405
+[Tue Apr 29 04:08:31.012161 2025] [php:error] [pid 7388] [client 42.200.159.206:13750] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwjlibghciuwyeoebfiwquldhoui' for key 'admin.PRIMARY' in /home/root/website/public/php/createTable.php:405\nStack trace:\n#0 /home/root/website/public/php/createTable.php(405): mysqli->query()\n#1 {main}\n  thrown in /home/root/website/public/php/createTable.php on line 405
+[Tue Apr 29 08:59:07.137939 2025] [core:error] [pid 9578] [client 47.251.102.239:43576] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Tue Apr 29 08:59:38.948884 2025] [core:error] [pid 9309] [client 47.251.102.239:45444] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Tue Apr 29 09:28:41.785138 2025] [core:error] [pid 9653] [client 43.208.237.27:46118] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Tue Apr 29 09:28:44.246767 2025] [core:error] [pid 9646] [client 43.208.237.27:43178] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Thu May 01 17:05:30.293323 2025] [php:error] [pid 29781] [client 113.254.37.88:61113] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwjlibghciuwyeoebfiwquldhoui' for key 'admin.PRIMARY' in /home/root/website/public/php/createTable.php:405\nStack trace:\n#0 /home/root/website/public/php/createTable.php(405): mysqli->query()\n#1 {main}\n  thrown in /home/root/website/public/php/createTable.php on line 405
+[Fri May 02 02:43:20.915911 2025] [core:error] [pid 32857] [client 216.10.250.218:59866] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Fri May 02 02:43:22.690724 2025] [core:error] [pid 32859] [client 216.10.250.218:35022] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Fri May 02 12:00:35.825353 2025] [php:error] [pid 901] [client 68.183.95.0:40688] script '/home/root/website/public/alive.php' not found or unable to stat
+[Fri May 02 22:45:16.214865 2025] [core:error] [pid 1024] [client 80.242.208.68:49220] AH10244: invalid URI path (/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh)
+[Fri May 02 22:45:16.976327 2025] [core:error] [pid 3718] [client 80.242.208.68:49226] AH10244: invalid URI path (/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh)
+[Fri May 02 23:09:47.180477 2025] [php:error] [pid 3707] [client 78.153.140.179:51942] script '/home/root/website/public/tmp.php' not found or unable to stat
+[Fri May 02 23:09:50.298083 2025] [php:error] [pid 1024] [client 78.153.140.179:50152] script '/home/root/website/public/test1.php' not found or unable to stat
+[Fri May 02 23:09:52.153108 2025] [php:error] [pid 3790] [client 78.153.140.179:36128] script '/home/root/website/public/test2.php' not found or unable to stat
+[Fri May 02 23:09:53.878234 2025] [php:error] [pid 3858] [client 78.153.140.179:48398] script '/home/root/website/public/test5.php' not found or unable to stat
+[Fri May 02 23:09:55.876491 2025] [php:error] [pid 3718] [client 78.153.140.179:37856] script '/home/root/website/public/test_info1.php' not found or unable to stat
+[Fri May 02 23:09:56.814547 2025] [php:error] [pid 3793] [client 78.153.140.179:46766] script '/home/root/website/public/test_phpinfo.php' not found or unable to stat
+[Fri May 02 23:09:58.883277 2025] [php:error] [pid 3858] [client 78.153.140.179:58522] script '/home/root/website/public/test_phpinfo1.php' not found or unable to stat
+[Fri May 02 23:09:59.903001 2025] [php:error] [pid 3931] [client 78.153.140.179:46828] script '/home/root/website/public/test_phpinfo2.php' not found or unable to stat
+[Fri May 02 23:10:01.664964 2025] [php:error] [pid 3790] [client 78.153.140.179:56302] script '/home/root/website/public/test_phpinfo3.php' not found or unable to stat
+[Fri May 02 23:10:03.312749 2025] [php:error] [pid 3858] [client 78.153.140.179:43240] script '/home/root/website/public/testing.php' not found or unable to stat
+[Fri May 02 23:10:08.570408 2025] [php:error] [pid 1024] [client 78.153.140.179:53910] script '/home/root/website/public/testphpinfo.php' not found or unable to stat
+[Fri May 02 23:10:11.798810 2025] [php:error] [pid 3716] [client 78.153.140.179:40832] script '/home/root/website/public/token.php' not found or unable to stat
+[Fri May 02 23:10:17.538253 2025] [php:error] [pid 3793] [client 78.153.140.179:54574] script '/home/root/website/public/w.php' not found or unable to stat
+[Fri May 02 23:10:21.780026 2025] [php:error] [pid 3785] [client 78.153.140.179:57554] script '/home/root/website/public/web.php' not found or unable to stat
+[Fri May 02 23:10:25.105378 2025] [php:error] [pid 3790] [client 78.153.140.179:60666] script '/home/root/website/public/x.php' not found or unable to stat
