@@ -1,0 +1,32 @@
+
+> start
+> node server.js
+
+Server is running on http://localhost:8080
+Connected to MySQL
+Terminated
+
+> start
+> node server.js
+
+Server is running on http://localhost:8080
+Connected to MySQL
+Terminated
+
+> start
+> node server.js
+
+Server is running on http://localhost:8080
+Error connecting to MySQL: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+Error updating data:Cannot enqueue Query after fatal error.
+/home/root/website/mysqlController.js:1814
+		result.forEach((row) => {
+		       ^
+
+TypeError: Cannot read property 'forEach' of undefined
+    at Query.<anonymous> (/home/root/website/mysqlController.js:1814:10)
+    at Query.<anonymous> (/home/root/website/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/root/website/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/root/website/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at /home/root/website/node_modules/mysql/lib/protocol/Protocol.js:236:14
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
